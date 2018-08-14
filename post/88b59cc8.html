@@ -148,7 +148,7 @@
 <meta property="og:site_name" content="浮生轩">
 <meta property="og:description" content="说在前面   其实早上就有搭建博客的想法，看到别人的博客搭的既简洁有炫酷，然后在博客里分享各种技术上的经验或是生活感悟，很是羡慕，不喜欢其他网站提供的现成模板，喜欢自由，喜欢折腾，就想着自己有时间一定要做一个出来。然而一是一直在忙于各种杂事，没时间做；二是因为懒（这是主要原因）闲的时候不想做，就一拖再拖，直到这段时间稍微闲了一点有了自己的时间，终于可以折腾自己的博客了。  我用了多久搭建自己的博客">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-14T08:52:48.962Z">
+<meta property="og:updated_time" content="2018-08-14T09:53:02.249Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="博客搭建历程">
 <meta name="twitter:description" content="说在前面   其实早上就有搭建博客的想法，看到别人的博客搭的既简洁有炫酷，然后在博客里分享各种技术上的经验或是生活感悟，很是羡慕，不喜欢其他网站提供的现成模板，喜欢自由，喜欢折腾，就想着自己有时间一定要做一个出来。然而一是一直在忙于各种杂事，没时间做；二是因为懒（这是主要原因）闲的时候不想做，就一拖再拖，直到这段时间稍微闲了一点有了自己的时间，终于可以折腾自己的博客了。  我用了多久搭建自己的博客">
@@ -244,7 +244,7 @@
     </div>
     
       
-        <p class="site-subtitle">自古人生何其乐,偷得浮生半日闲</p>
+        <h1 class="site-subtitle" itemprop="description">自古人生何其乐,偷得浮生半日闲</h1>
       
     
   </div>
@@ -303,22 +303,6 @@
           <li class="menu-item menu-item-archives">
     <a href="/archives/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
-  </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-schedule">
-    <a href="/schedule/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />日程表</a>
-  </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-sitemap">
-    <a href="/sitemap.xml" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />站点地图</a>
   </li>
 
       
@@ -388,7 +372,6 @@
     
 
   
-
   
   
   
@@ -417,10 +400,10 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">博客搭建历程
+          <h2 class="post-title" itemprop="name headline">博客搭建历程
               
             
-          </h1>
+          </h2>
         
 
         <div class="post-meta">
@@ -558,10 +541,68 @@
 <div>
       
         
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <p><span>本文标题:</span><a href="/post/88b59cc8.html">博客搭建历程</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 LangYa1945 的个人博客">LangYa1945</a></p>
+  <p><span>发布时间:</span>2018年08月13日 - 23:08</p>
+  <p><span>最后更新:</span>2018年08月14日 - 09:08</p>
+  <p><span>原始链接:</span><a href="/post/88b59cc8.html" title="博客搭建历程">https://langya1945.xyz/post/88b59cc8.html</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://langya1945.xyz/post/88b59cc8.html"  aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+      $(".fa-clipboard").click(function(){
+      clipboard.on('success', function(){
+        swal({   
+          title: "",   
+          text: '复制成功',
+          icon: "success", 
+          showConfirmButton: true
+          });
+        });
+    });  
+</script>
+
       
 </div>
     
 
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>路见不平，拔刀相助！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="LangYa1945 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="LangYa1945 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
     
 
     
@@ -735,37 +776,37 @@
             <div class="links-of-author motion-element">
               
                 <span class="links-of-author-item">
-                  <a href="https://github.com/WangJie1945" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  <a href="https://github.com/WangJie1945" target="_blank" title="GitHub" rel="external nofollow"><i class="fa fa-fw fa-github"></i>GitHub</a>
                   
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="mailto:wj1347150711@gmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  <a href="mailto:wj1347150711@gmail.com" target="_blank" title="E-Mail" rel="external nofollow"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://twitter.com/langya1945" target="_blank" title="Twitter"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+                  <a href="https://twitter.com/langya1945" target="_blank" title="Twitter" rel="external nofollow"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
                   
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://www.facebook.com/LangYa1945" target="_blank" title="FB Page"><i class="fa fa-fw fa-facebook"></i>FB Page</a>
+                  <a href="https://www.facebook.com/LangYa1945" target="_blank" title="FB Page" rel="external nofollow"><i class="fa fa-fw fa-facebook"></i>FB Page</a>
                   
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://www.zhihu.com/people/wang-jie-99-44/activities" target="_blank" title="知乎"><i class="fa fa-fw fa-zhihu"></i>知乎</a>
+                  <a href="https://www.zhihu.com/people/wang-jie-99-44/activities" target="_blank" title="知乎" rel="external nofollow"><i class="fa fa-fw fa-zhihu"></i>知乎</a>
                   
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="http://blog.csdn.net/u012227416/article/details/73322667" target="_blank" title="CSDN"><i class="fa fa-fw fa-csdn"></i>CSDN</a>
+                  <a href="http://blog.csdn.net/u012227416/article/details/73322667" target="_blank" title="CSDN" rel="external nofollow"><i class="fa fa-fw fa-csdn"></i>CSDN</a>
                   
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="http://weibo.com/3106284800/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" target="_blank" title="Weibo"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
+                  <a href="http://weibo.com/3106284800/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" target="_blank" title="Weibo" rel="external nofollow"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
                   
                 </span>
               
@@ -850,6 +891,8 @@
 </div>
 
 
+  
+
 
 
 
@@ -872,7 +915,7 @@
 <script>
     var now = new Date();
     function createtime() {
-        var grt= new Date("07/06/2018 11:11:00");//此处修改你的建站时间或者网站上线时间
+        var grt= new Date("08/13/2018 12:00:00");//此处修改你的建站时间或者网站上线时间
         now.setTime(now.getTime()+250);
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
@@ -943,16 +986,11 @@ setInterval("createtime()",250);
 
 
 
-  
 
 
 
 
 
-
-
-  
-  
 
 
 
@@ -973,21 +1011,6 @@ setInterval("createtime()",250);
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/three.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/canvas_sphere.min.js"></script>
   
 
 
