@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>浮生志</title>
+  <title>浮生轩</title>
   
   <subtitle>自古人生何其乐,偷得浮生半日闲</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://langya1945.xyz/"/>
-  <updated>2018-08-14T07:11:14.528Z</updated>
+  <updated>2018-08-13T23:59:30.122Z</updated>
   <id>https://langya1945.xyz/</id>
   
   <author>
@@ -15,48 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test2</title>
-    <link href="https://langya1945.xyz/post/13bb8d58.html"/>
-    <id>https://langya1945.xyz/post/13bb8d58.html</id>
-    <published>2018-08-14T15:03:54.000Z</published>
-    <updated>2018-08-14T07:11:14.528Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test1</title>
-    <link href="https://langya1945.xyz/post/8ab2dce2.html"/>
-    <id>https://langya1945.xyz/post/8ab2dce2.html</id>
-    <published>2018-08-14T15:02:34.000Z</published>
-    <updated>2018-08-14T07:11:14.526Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://langya1945.xyz/post/d87f7e0c.html"/>
-    <id>https://langya1945.xyz/post/d87f7e0c.html</id>
-    <published>2018-08-14T15:00:15.000Z</published>
-    <updated>2018-08-14T07:11:14.527Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>消愁有感</title>
@@ -88,7 +46,7 @@
     <link href="https://langya1945.xyz/post/88b59cc8.html"/>
     <id>https://langya1945.xyz/post/88b59cc8.html</id>
     <published>2018-08-13T23:59:29.309Z</published>
-    <updated>2018-08-13T23:59:29.432Z</updated>
+    <updated>2018-08-14T08:52:48.962Z</updated>
     
     <content type="html"><![CDATA[<h1 id="说在前面"><a href="#说在前面" class="headerlink" title="说在前面"></a>说在前面</h1><p>   其实早上就有搭建博客的想法，看到别人的博客搭的既简洁有炫酷，然后在博客里分享各种技术上的经验或是生活感悟，很是羡慕，不喜欢其他网站提供的现成模板，喜欢自由，喜欢折腾，就想着自己有时间一定要做一个出来。然而一是一直在忙于各种杂事，没时间做；二是因为懒（这是主要原因）闲的时候不想做，就一拖再拖，直到这段时间稍微闲了一点有了自己的时间，终于可以折腾自己的博客了。</p><ul><li><p>我用了多久搭建自己的博客<br>对着别人五分钟建站，愣是用了我三四天的时间才弄出来，整个过程一波三折，下面记录整个搭建过程。一是自己留一个备份，二是给有机会看到这篇博客的人少走一些弯路。</p><ul><li>搭建平台<br>系统：windows10 64位<br>控制台：cmder，git<br>hexo+Github</li></ul><h1 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h1><p>整个博客是搭建在github上的，后台用的是hexo，主题是简洁大方的next，域名用的是阿里云的top域名（谁让它便宜呢，一年才一块钱），阅读次数统计用的是leancloud，还有很多功能有待加入。。。不要着急</p><h2 id="一、-注册github账户"><a href="#一、-注册github账户" class="headerlink" title="一、 注册github账户"></a>一、 注册github账户</h2><p>其实这个博客是托管在github上的，作为全球最大的大型同性交友平台，github提供免费的代码托管服务，为了更好的展示项目，github提供了一个github pages用来展示静态的网页，所谓搭建博客，其实借用的就是这个功能。<br>首先注册、登录<a href="github.com">github.com</a>,记住自己的Username。<br>然后新建一个仓库，仓库的名字和自己Username一直（这个很重要）<br>例如我的域名是<a href="Github.com/wangjie1945">Github.com/wangjie1945</a>, 就填入wangjie1945.github.io</p><h2 id="二、环境安装"><a href="#二、环境安装" class="headerlink" title="二、环境安装"></a>二、环境安装</h2><p>1、安装 Node.js<br>2、安装Git for windows。<a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/" target="_blank" rel="noopener">Git教程</a>推荐看廖雪峰老师的，安装完成后在开始菜单里找到Git-&gt;Git Bash,输入自己github的邮箱和用户名。<br>3、安装Hexo<br>$npm install -g hexo - cli<br>如果一切顺利，环境我们就配置好了。</p><h2 id="三、设置"><a href="#三、设置" class="headerlink" title="三、设置"></a>三、设置</h2><p>1、在自己的目录下建立一个目录，命名为blog<br>2、在blog文件夹右击，选择Git Bush Here，输入</p><pre><code>hexo init blog等一下就会有成功提示。</code></pre><p>3、执行hexo g命令，生成必要文件<br>4、执行hexo s，启动服务器。<br>5、访问·127.0.0.1/4000,就可以看到网站的初步模样。</p><h2 id="四、上传到github"><a href="#四、上传到github" class="headerlink" title="四、上传到github"></a>四、上传到github</h2><p>在git里加入SSH key，直接连接到github，然后输入hexo d提交给远程仓库。</p><h2 id="五、配置博客"><a href="#五、配置博客" class="headerlink" title="五、配置博客"></a>五、配置博客</h2><p>下载next主题，复制到theme文件夹，启动主题。<br>接下就是对主题的各种折腾，配置各种插件，一个坑接着一个坑</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这是真正意义上的第一篇技术博客，感觉静下心来写博客真心不容易，对那些写的通俗易懂教程的人崇拜之情又增加了几分，有时间再补一个关于主题的设置吧</p></li></ul>]]></content>
     
@@ -105,43 +63,6 @@
     
     
       <category term="技术总结,原创,2017" scheme="https://langya1945.xyz/tags/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93-%E5%8E%9F%E5%88%9B-2017/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一篇博客</title>
-    <link href="https://langya1945.xyz/post/ff05b5bf.html"/>
-    <id>https://langya1945.xyz/post/ff05b5bf.html</id>
-    <published>2018-08-13T21:10:01.000Z</published>
-    <updated>2018-08-14T02:56:13.082Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://langya1945.xyz/post/4a17b156.html"/>
-    <id>https://langya1945.xyz/post/4a17b156.html</id>
-    <published>2018-08-13T05:38:17.785Z</published>
-    <updated>2018-08-13T13:56:30.793Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-    
-      <category term="hexo" scheme="https://langya1945.xyz/tags/hexo/"/>
     
   </entry>
   

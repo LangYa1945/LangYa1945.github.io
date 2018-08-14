@@ -4,65 +4,26 @@
 
     
   <url>
-    <loc>https://langya1945.xyz/post/13bb8d58.html</loc>
-    <lastmod>2018-08-14T07:11:14.528Z</lastmod>
+    <loc>https://langya1945.xyz/post/88b59cc8.html</loc>
+    <lastmod>2018-08-14T08:52:48.962Z</lastmod>
     <data>
         <display>
-        <title>test2</title>
-        <pubTime>2018-08-14T15:03:54.000Z</pubTime>
+        <title>博客搭建历程</title>
+        <pubTime>2018-08-13T23:59:29.309Z</pubTime>
         
+        <tag>技术总结,原创,2017</tag>
+         
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://langya1945.xyz/post/d87f7e0c.html</loc>
-    <lastmod>2018-08-14T07:11:14.527Z</lastmod>
-    <data>
-        <display>
-        <title>test</title>
-        <pubTime>2018-08-14T15:00:15.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://langya1945.xyz/post/8ab2dce2.html</loc>
-    <lastmod>2018-08-14T07:11:14.526Z</lastmod>
-    <data>
-        <display>
-        <title>test1</title>
-        <pubTime>2018-08-14T15:02:34.000Z</pubTime>
-        
-         
-           
+             
+              <breadCrumb title="博客" url="https://langya1945.xyz/categories/%E5%8D%9A%E5%AE%A2/"/>
+          
         </display>
     </data>
     </url>
 
     
     
-  <url>
-    <loc>https://langya1945.xyz/post/ff05b5bf.html</loc>
-    <lastmod>2018-08-14T02:56:13.082Z</lastmod>
-    <data>
-        <display>
-        <title>第一篇博客</title>
-        <pubTime>2018-08-13T21:10:01.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
     
     
     
@@ -85,42 +46,4 @@
     </data>
     </url>
 
-    
-  <url>
-    <loc>https://langya1945.xyz/post/88b59cc8.html</loc>
-    <lastmod>2018-08-13T23:59:29.432Z</lastmod>
-    <data>
-        <display>
-        <title>博客搭建历程</title>
-        <pubTime>2018-08-13T23:59:29.309Z</pubTime>
-        
-        <tag>技术总结,原创,2017</tag>
-         
-         
-           
-             
-              <breadCrumb title="博客" url="https://langya1945.xyz/categories/%E5%8D%9A%E5%AE%A2/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://langya1945.xyz/post/4a17b156.html</loc>
-    <lastmod>2018-08-13T13:56:30.793Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2018-08-13T05:38:17.785Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
 </urlset>
