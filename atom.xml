@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://langya1945.xyz/"/>
-  <updated>2018-08-15T01:20:32.853Z</updated>
+  <updated>2018-08-21T02:04:45.984Z</updated>
   <id>https://langya1945.xyz/</id>
   
   <author>
@@ -17,19 +17,23 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Cmd Markdown编辑器使用</title>
-    <link href="https://langya1945.xyz/post/64bcbdce.html"/>
-    <id>https://langya1945.xyz/post/64bcbdce.html</id>
-    <published>2018-08-15T08:40:40.000Z</published>
-    <updated>2018-08-15T01:20:32.853Z</updated>
+    <title>Linux目录管理</title>
+    <link href="https://langya1945.xyz/post/dd43b6cd.html"/>
+    <id>https://langya1945.xyz/post/dd43b6cd.html</id>
+    <published>2018-08-21T10:04:04.000Z</published>
+    <updated>2018-08-21T02:04:45.984Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="欢迎使用-Cmd-Markdown-编辑阅读器"><a href="#欢迎使用-Cmd-Markdown-编辑阅读器" class="headerlink" title="欢迎使用 Cmd Markdown 编辑阅读器"></a>欢迎使用 Cmd Markdown 编辑阅读器</h1><hr><p>我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，<strong>Cmd Markdown</strong> 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：</p><blockquote><ul><li>整理知识，学习笔记</li><li>发布日记，杂文，所见所想</li><li>撰写发布技术文稿（代码支持）</li><li>撰写发布学术论文（LaTeX 公式支持）</li></ul></blockquote><p><img src="https://www.zybuluo.com/static/img/logo.png" alt="cmd-markdown-logo"></p><p>除了您现在看到的这个 Cmd Markdown 在线版本，您还可以前往以下网址下载：</p><h3 id="Windows-Mac-Linux-全平台客户端"><a href="#Windows-Mac-Linux-全平台客户端" class="headerlink" title="Windows/Mac/Linux 全平台客户端"></a><a href="https://www.zybuluo.com/cmd/" rel="external nofollow noopener noreferrer" target="_blank">Windows/Mac/Linux 全平台客户端</a></h3><blockquote><p>请保留此份 Cmd Markdown 的欢迎稿兼使用说明，如需撰写新稿件，点击顶部工具栏右侧的 <i class="icon-file"></i> <strong>新文稿</strong> 或者使用快捷键 <code>Ctrl+Alt+N</code>。</p></blockquote><hr><h2 id="什么是-Markdown"><a href="#什么是-Markdown" class="headerlink" title="什么是 Markdown"></a>什么是 Markdown</h2><p>Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，<strong>粗体</strong> 或者 <em>斜体</em> 某些文字，更棒的是，它还可以</p><h3 id="1-制作一份待办事宜-Todo-列表"><a href="#1-制作一份待办事宜-Todo-列表" class="headerlink" title="1. 制作一份待办事宜 Todo 列表"></a>1. 制作一份待办事宜 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表" rel="external nofollow noopener noreferrer" target="_blank">Todo 列表</a></h3><ul><li style="list-style: none"><input type="checkbox"> 支持以 PDF 格式导出文稿</li><li style="list-style: none"><input type="checkbox"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</li><li style="list-style: none"><input type="checkbox" checked> 新增 Todo 列表功能</li><li style="list-style: none"><input type="checkbox" checked> 修复 LaTex 公式渲染问题</li><li style="list-style: none"><input type="checkbox" checked> 新增 LaTex 公式编号功能</li></ul><h3 id="2-书写一个质能守恒公式-LaTeX"><a href="#2-书写一个质能守恒公式-LaTeX" class="headerlink" title="2. 书写一个质能守恒公式[^LaTeX]"></a>2. 书写一个质能守恒公式[^LaTeX]</h3><p>$$E=mc^2$$</p><h3 id="3-高亮一段代码-code"><a href="#3-高亮一段代码-code" class="headerlink" title="3. 高亮一段代码[^code]"></a>3. 高亮一段代码[^code]</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    <span class="comment"># A comment</span></span><br><span class="line">    <span class="keyword">print</span> <span class="string">'hello world'</span></span><br></pre></td></tr></table></figure><h3 id="4-高效绘制-流程图"><a href="#4-高效绘制-流程图" class="headerlink" title="4. 高效绘制 流程图"></a>4. 高效绘制 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-流程图" rel="external nofollow noopener noreferrer" target="_blank">流程图</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">st=&gt;start: Start</span><br><span class="line">op=&gt;operation: Your Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">e=&gt;end</span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure><h3 id="5-高效绘制-序列图"><a href="#5-高效绘制-序列图" class="headerlink" title="5. 高效绘制 序列图"></a>5. 高效绘制 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#8-序列图" rel="external nofollow noopener noreferrer" target="_blank">序列图</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure><h3 id="6-高效绘制-甘特图"><a href="#6-高效绘制-甘特图" class="headerlink" title="6. 高效绘制 甘特图"></a>6. 高效绘制 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#9-甘特图" rel="external nofollow noopener noreferrer" target="_blank">甘特图</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">title 项目开发流程</span><br><span class="line">section 项目确定</span><br><span class="line">    需求分析       :a1, 2016-06-22, 3d</span><br><span class="line">    可行性报告     :after a1, 5d</span><br><span class="line">    概念验证       : 5d</span><br><span class="line">section 项目实施</span><br><span class="line">    概要设计      :2016-07-05  , 5d</span><br><span class="line">    详细设计      :2016-07-08, 10d</span><br><span class="line">    编码          :2016-07-15, 10d</span><br><span class="line">    测试          :2016-07-22, 5d</span><br><span class="line">section 发布验收</span><br><span class="line">    发布: 2d</span><br><span class="line">    验收: 3d</span><br></pre></td></tr></table></figure><h3 id="7-绘制表格"><a href="#7-绘制表格" class="headerlink" title="7. 绘制表格"></a>7. 绘制表格</h3><table><thead><tr><th>项目</th><th style="text-align:right">价格</th><th style="text-align:center">数量</th></tr></thead><tbody><tr><td>计算机</td><td style="text-align:right">\$1600</td><td style="text-align:center">5</td></tr><tr><td>手机</td><td style="text-align:right">\$12</td><td style="text-align:center">12</td></tr><tr><td>管线</td><td style="text-align:right">\$1</td><td style="text-align:center">234</td></tr></tbody></table><h3 id="8-更详细语法说明"><a href="#8-更详细语法说明" class="headerlink" title="8. 更详细语法说明"></a>8. 更详细语法说明</h3><p>想要查看更详细的语法说明，可以参考我们准备的 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown" rel="external nofollow noopener noreferrer" target="_blank">Cmd Markdown 简明语法手册</a>，进阶用户可以参考 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-高阶语法手册" rel="external nofollow noopener noreferrer" target="_blank">Cmd Markdown 高阶语法手册</a> 了解更多高级功能。</p><p>总而言之，不同于其它 <em>所见即所得</em> 的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。<strong>Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。</strong> 目前它已经成为世界上最大的技术分享网站 GitHub 和 技术问答网站 StackOverFlow 的御用书写格式。</p><hr><h2 id="什么是-Cmd-Markdown"><a href="#什么是-Cmd-Markdown" class="headerlink" title="什么是 Cmd Markdown"></a>什么是 Cmd Markdown</h2><p>您可以使用很多工具书写 Markdown，但是 Cmd Markdown 是这个星球上我们已知的、最好的 Markdown 工具——没有之一 ：）因为深信文字的力量，所以我们和你一样，对流畅书写，分享思想和知识，以及阅读体验有极致的追求，我们把对于这些诉求的回应整合在 Cmd Markdown，并且一次，两次，三次，乃至无数次地提升这个工具的体验，最终将它演化成一个 <strong>编辑/发布/阅读</strong> Markdown 的在线平台——您可以在任何地方，任何系统/设备上管理这里的文字。</p><h3 id="1-实时同步预览"><a href="#1-实时同步预览" class="headerlink" title="1. 实时同步预览"></a>1. 实时同步预览</h3><p>我们将 Cmd Markdown 的主界面一分为二，左边为<strong>编辑区</strong>，右边为<strong>预览区</strong>，在编辑区的操作会实时地渲染到预览区方便查看最终的版面效果，并且如果你在其中一个区拖动滚动条，我们有一个巧妙的算法把另一个区的滚动条同步到等价的位置，超酷！</p><h3 id="2-编辑工具栏"><a href="#2-编辑工具栏" class="headerlink" title="2. 编辑工具栏"></a>2. 编辑工具栏</h3><p>也许您还是一个 Markdown 语法的新手，在您完全熟悉它之前，我们在 <strong>编辑区</strong> 的顶部放置了一个如下图所示的工具栏，您可以使用鼠标在工具栏上调整格式，不过我们仍旧鼓励你使用键盘标记格式，提高书写的流畅度。</p><p><img src="https://www.zybuluo.com/static/img/toolbar-editor.png" alt="tool-editor"></p><h3 id="3-编辑模式"><a href="#3-编辑模式" class="headerlink" title="3. 编辑模式"></a>3. 编辑模式</h3><p>完全心无旁骛的方式编辑文字：点击 <strong>编辑工具栏</strong> 最右侧的拉伸按钮或者按下 <code>Ctrl + M</code>，将 Cmd Markdown 切换到独立的编辑模式，这是一个极度简洁的写作环境，所有可能会引起分心的元素都已经被挪除，超清爽！</p><h3 id="4-实时的云端文稿"><a href="#4-实时的云端文稿" class="headerlink" title="4. 实时的云端文稿"></a>4. 实时的云端文稿</h3><p>为了保障数据安全，Cmd Markdown 会将您每一次击键的内容保存至云端，同时在 <strong>编辑工具栏</strong> 的最右侧提示 <code>已保存</code> 的字样。无需担心浏览器崩溃，机器掉电或者地震，海啸——在编辑的过程中随时关闭浏览器或者机器，下一次回到 Cmd Markdown 的时候继续写作。</p><h3 id="5-离线模式"><a href="#5-离线模式" class="headerlink" title="5. 离线模式"></a>5. 离线模式</h3><p>在网络环境不稳定的情况下记录文字一样很安全！在您写作的时候，如果电脑突然失去网络连接，Cmd Markdown 会智能切换至离线模式，将您后续键入的文字保存在本地，直到网络恢复再将他们传送至云端，即使在网络恢复前关闭浏览器或者电脑，一样没有问题，等到下次开启 Cmd Markdown 的时候，她会提醒您将离线保存的文字传送至云端。简而言之，我们尽最大的努力保障您文字的安全。</p><h3 id="6-管理工具栏"><a href="#6-管理工具栏" class="headerlink" title="6. 管理工具栏"></a>6. 管理工具栏</h3><p>为了便于管理您的文稿，在 <strong>预览区</strong> 的顶部放置了如下所示的 <strong>管理工具栏</strong>：</p><p><img src="https://www.zybuluo.com/static/img/toolbar-manager.jpg" alt="tool-manager"></p><p>通过管理工具栏可以：</p><p><i class="icon-share"></i> 发布：将当前的文稿生成固定链接，在网络上发布，分享<br><i class="icon-file"></i> 新建：开始撰写一篇新的文稿<br><i class="icon-trash"></i> 删除：删除当前的文稿<br><i class="icon-cloud"></i> 导出：将当前的文稿转化为 Markdown 文本或者 Html 格式，并导出到本地<br><i class="icon-reorder"></i> 列表：所有新增和过往的文稿都可以在这里查看、操作<br><i class="icon-pencil"></i> 模式：切换 普通/Vim/Emacs 编辑模式</p><h3 id="7-阅读工具栏"><a href="#7-阅读工具栏" class="headerlink" title="7. 阅读工具栏"></a>7. 阅读工具栏</h3><p><img src="https://www.zybuluo.com/static/img/toolbar-reader.jpg" alt="tool-manager"></p><p>通过 <strong>预览区</strong> 右上角的 <strong>阅读工具栏</strong>，可以查看当前文稿的目录并增强阅读体验。</p><p>工具栏上的五个图标依次为：</p><p><i class="icon-list"></i> 目录：快速导航当前文稿的目录结构以跳转到感兴趣的段落<br><i class="icon-chevron-sign-left"></i> 视图：互换左边编辑区和右边预览区的位置<br><i class="icon-adjust"></i> 主题：内置了黑白两种模式的主题，试试 <strong>黑色主题</strong>，超炫！<br><i class="icon-desktop"></i> 阅读：心无旁骛的阅读模式提供超一流的阅读体验<br><i class="icon-fullscreen"></i> 全屏：简洁，简洁，再简洁，一个完全沉浸式的写作和阅读环境</p><h3 id="8-阅读模式"><a href="#8-阅读模式" class="headerlink" title="8. 阅读模式"></a>8. 阅读模式</h3><p>在 <strong>阅读工具栏</strong> 点击 <i class="icon-desktop"></i> 或者按下 <code>Ctrl+Alt+M</code> 随即进入独立的阅读模式界面，我们在版面渲染上的每一个细节：字体，字号，行间距，前背景色都倾注了大量的时间，努力提升阅读的体验和品质。</p><h3 id="9-标签、分类和搜索"><a href="#9-标签、分类和搜索" class="headerlink" title="9. 标签、分类和搜索"></a>9. 标签、分类和搜索</h3><p>在编辑区任意行首位置输入以下格式的文字可以标签当前文档：</p><p>标签： 未分类</p><p>标签以后的文稿在【文件列表】（Ctrl+Alt+F）里会按照标签分类，用户可以同时使用键盘或者鼠标浏览查看，或者在【文件列表】的搜索文本框内搜索标题关键字过滤文稿，如下图所示：</p><p><img src="https://www.zybuluo.com/static/img/file-list.png" alt="file-list"></p><h3 id="10-文稿发布和分享"><a href="#10-文稿发布和分享" class="headerlink" title="10. 文稿发布和分享"></a>10. 文稿发布和分享</h3><p>在您使用 Cmd Markdown 记录，创作，整理，阅读文稿的同时，我们不仅希望它是一个有力的工具，更希望您的思想和知识通过这个平台，连同优质的阅读体验，将他们分享给有相同志趣的人，进而鼓励更多的人来到这里记录分享他们的思想和知识，尝试点击 <i class="icon-share"></i> (Ctrl+Alt+P) 发布这份文档给好友吧！</p><hr><p>再一次感谢您花费时间阅读这份欢迎稿，点击 <i class="icon-file"></i> (Ctrl+Alt+N) 开始撰写新的文稿吧！祝您在这里记录、阅读、分享愉快！</p><p>作者 <a href="http://weibo.com/ghosert" rel="external nofollow noopener noreferrer" target="_blank">@ghosert</a><br>2016 年 07月 07日    </p><p>[^LaTeX]: 支持 <strong>LaTeX</strong> 编辑显示支持，例如：$\sum_{i=1}^n a_i=0$， 访问 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" rel="external nofollow noopener noreferrer" target="_blank">MathJax</a> 参考更多使用方法。</p><p>[^code]: 代码高亮功能支持包括 Java, Python, JavaScript 在内的，<strong>四十一</strong>种主流编程语言。</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="目录表示"><a href="#目录表示" class="headerlink" title="目录表示"></a>目录表示</h3><ul><li>.代表此层目录</li><li>..代表上层目录</li><li>-代表前一个工作目录</li><li>~目前使用者的主目录</li><li>~account代表 account 这个使用者的主文件<h4 id="目录命令"><a href="#目录命令" class="headerlink" title="目录命令"></a>目录命令</h4></li><li>cd：变换目录</li><li>pwd：显示目前的目录</li><li>mkdir：创建一个新的目录</li><li>rmdir：删除一个空的目录：rmdir 仅能删除空目录，要删除非空目录需使用“ rm -r ”指令<h4 id="cd-change-dictionary"><a href="#cd-change-dictionary" class="headerlink" title="cd: change dictionary."></a>cd: change dictionary.</h4></li><li>cd ~：示回到自己的主文件夹</li><li>cd :没有加上任何路径，也还是代表回到自己主文件夹.</li><li>cd ~langya1945:代表去到 langya1945 这个使用者的主文件夹</li><li>cd -:表示回到刚刚的那个目录.<h4 id="pwd-print-working-directory"><a href="#pwd-print-working-directory" class="headerlink" title="pwd :print working directory"></a>pwd :print working directory</h4></li><li>没什么好说的<h4 id="mkdir：make-dictionary"><a href="#mkdir：make-dictionary" class="headerlink" title="mkdir：make dictionary"></a>mkdir：make dictionary</h4></li><li>mkdir -m:强制设置文件权限<br>mkdir -m 711 test1:给与test1文件夹drwx–x–x的权限</li><li>mkdir -p:创造迭代目录：</li></ul><p><strong> # Create a directory and all its parents<br>mkdir -p foo/bar/baz</strong># Create foo/bar and foo/baz directories<br>mkdir -p foo/{bar,baz}<br>** # Create the foo/bar, foo/baz, foo/baz/zip and foo/baz/zap directories<br>mkdir -p foo/{bar,baz/{zip,zap}}</p><p>####rm:remove dictionary<br><strong># Remove files and subdirs<br>rm -rf path/to/the/target/</strong># Ignore non existent files<br>rm -f path/to/the/target<br>**# Remove a file with his inode<br>find /tmp/ -inum 6666 -exec rm -i ‘{}’ \;</p><h4 id="rmdir"><a href="#rmdir" class="headerlink" title="rmdir"></a>rmdir</h4><p>-p:连同上层、空的文件夹一起删</p><h4 id="ls：文件与目录的检视"><a href="#ls：文件与目录的检视" class="headerlink" title="ls：文件与目录的检视"></a>ls：文件与目录的检视</h4><p>-l:列出所有文件信息<br>-a：显示全部文件，连同隐藏<br>-d:仅列出目录本身</p><h4 id="cp，-rm，mv：复制、删除和移动"><a href="#cp，-rm，mv：复制、删除和移动" class="headerlink" title="cp， rm，mv：复制、删除和移动"></a>cp， rm，mv：复制、删除和移动</h4><ul><li>cp ~/Desktop/foo.txt ~/Downloads/foo.txt<br>:创造一个新文件</li><li>cp -r ~/Desktop/cruise_pics/ ~/Pictu:创造一个目录</li><li>cp -i:如果有重名，询问是否覆盖</li><li>rm -f:强制删除，忽略不存在文件</li><li>rm -i：互动删除，删除前会徐文</li><li>rm -r:递归删除，删除多级目录。</li><li>mv -f：强制移动，如存在，则覆盖</li><li>mv -i：如目标存在，则询问</li><li>mv -u：移动但不覆盖<h4 id="文件内容查阅"><a href="#文件内容查阅" class="headerlink" title="文件内容查阅"></a>文件内容查阅</h4>cat  由第一行开始显示文件内容<br>tac  从最后一行开始显示，可以看出 tac 是 cat 的倒着写！<br>nl   显示的时候，顺道输出行号！<br>more 一页一页的显示文件内容<br>less 与 more 类似，但是比 more 更好的是，他可以往前翻页！<br>head 只看头几行<br>tail 只看尾巴几行<br>od   以二进制的方式读取文件内容！</li><li>cat  Concatenate （连续） 的简写， 主要的功能是将一个文件的内容连续的印出在屏幕上面！<br>cat -n：带行号显示文件内容</li><li>tac 反向显示</li><li>nl添加行号打印</li><li>more 一页一页翻动<br>空白键 （space）：代表向下翻一页；<br>Enter         ：代表向下翻“一行”；<br>/字串         ：代表在这个显示的内容当中，向下搜寻“字串”这个关键字；<br>:f            ：立刻显示出文件名以及目前显示的行数；<br>q             ：代表立刻离开 more ，不再显示该文件内容<br>b 或 [ctrl]-b ：代表往回翻页，不过这动作只对文件有用，对管线无用。<br>less：less 的用法比起 more 又更加的有弹性，可以使用 [pageup] [pagedown] 等按键的功能来往前往后翻看文件<br>空白键    ：向下翻动一页；<br>[pagedown]：向下翻动一页；<br>[pageup]  ：向上翻动一页；<br>/字串     ：向下搜寻“字串”的功能；<br>?字串     ：向上搜寻“字串”的功能；<br>n         ：重复前一个搜寻 （与 / 或 ? 有关！）<br>N         ：反向的重复前一个搜寻 （与 / 或 ? 有关！）<br>g         ：前进到这个数据的第一行去；<br>G         ：前进到这个数据的最后一行去 （注意大小写）；<br>q         ：离开 less 这个程序；<h4 id="touch-的目的在修改文件的时间参数，但亦可用来创建空文件"><a href="#touch-的目的在修改文件的时间参数，但亦可用来创建空文件" class="headerlink" title="touch 的目的在修改文件的时间参数，但亦可用来创建空文件"></a>touch 的目的在修改文件的时间参数，但亦可用来创建空文件</h4></li><li>modification time （mtime）：<br>当该文件的“内容数据”变更时，就会更新这个时间！内容数据指的是文件的内容，而不是文件的属性或权限喔！</li><li>status time （ctime）：<br>当该文件的“状态 （status）”改变时，就会更新这个时间，举例来说，像是权限与属性被更改了，都会更新这个时间啊。 </li><li>access time （atime）：<br>当“该文件的内容被取用”时，就会更新这个读取时间 （access）。举例来说，我们使用 cat 去读取 /etc/man_db.conf ， 就会更新该文件的 atime 了。</li><li>touch [-acdmt] 文件<br>选项与参数：<br>-a  ：仅修订 access time；<br>-c  ：仅修改文件的时间，若该文件不存在则不创建新文件；<br>-d  ：后面可以接欲修订的日期而不用目前的日期，也可以使用 –date=”日期或时间”<br>-m  ：仅修改 mtime ；<br>-t  ：后面可以接欲修订的时间而不用目前的时间<h4 id="文件与目录的默认权限与隐私设置"><a href="#文件与目录的默认权限与隐私设置" class="headerlink" title="文件与目录的默认权限与隐私设置"></a>文件与目录的默认权限与隐私设置</h4>修改属性：chgrp、chown、chmod<br>文件夹的默认权限：<br>umask：目前使用者在创建文件或目录时候的权限默认值<h4 id="指令与文件的搜寻："><a href="#指令与文件的搜寻：" class="headerlink" title="指令与文件的搜寻："></a>指令与文件的搜寻：</h4>指定文件搜寻：which 寻找可执行文件<br>文件文件名的搜寻;<br>find、whereis:由一些特殊的目录中寻找文件名<br>、locate</li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;欢迎使用-Cmd-Markdown-编辑阅读器&quot;&gt;&lt;a href=&quot;#欢迎使用-Cmd-Markdown-编辑阅读器&quot; class=&quot;headerlink&quot; title=&quot;欢迎使用 Cmd Markdown 编辑阅读器&quot;&gt;&lt;/a&gt;欢迎使用 Cmd Markdown
+        &lt;h3 id=&quot;目录表示&quot;&gt;&lt;a href=&quot;#目录表示&quot; class=&quot;headerlink&quot; title=&quot;目录表示&quot;&gt;&lt;/a&gt;目录表示&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;.代表此层目录&lt;/li&gt;
+&lt;li&gt;..代表上层目录&lt;/li&gt;
+&lt;li&gt;-代表前一个工作目录&lt;/li&gt;
+&lt;li&gt;~
       
     
     </summary>
@@ -38,11 +42,101 @@
   </entry>
   
   <entry>
+    <title>Linux常用命令总结</title>
+    <link href="https://langya1945.xyz/post/1fe3367f.html"/>
+    <id>https://langya1945.xyz/post/1fe3367f.html</id>
+    <published>2018-08-21T10:03:12.000Z</published>
+    <updated>2018-08-21T02:03:35.266Z</updated>
+    
+    <content type="html"><![CDATA[<p>###概念：命令行、终端、shell、bash。<br>  <br>     &ensp;&ensp;&ensp;1. 命令行是在dos（Disk Operation System 磁盘操作系统）下运行的命令，通俗地讲，就是你输入的那一串串字符。。。<br>  2. 终端是写命令行的地方，比如windows下的命令提示符、mac和Linux下的终端、windows下安装的cmder或者是gitbash。<br>  3. shell用于执行在终端上写的命令，读取字符串并执行，所以应该算是——脚本语言？百度来了一个专业名词叫命令解释器。<br>  4. bash是实现shell功能的一个东西，是shell的一个实例。<br>  综上，终端是一种设备，直接获取输入呈现输出（比如说键盘显示屏…），终端承载shell，但是shell是一种通用称呼，bash则是shell的一个实例，shell读取命令之后与内核交互然后给出反馈输出到终端。</p><p>###从常用命令</p><ul><li>显示日期与时间的指令： date</li><li>显示日历的指令： cal</li><li>简单好用的计算机： bc</li><li>shutdown -h now 立马关机</li><li>shutdown -r now 系统立刻重新开机</li><li>shutdown -h 12：00整点关机</li><li>shutdown -r +30  再过三十分钟系统会重新开机</li><li>halt 进入系统停止的模式</li><li>poweroff   进入系统关机模式，直接关机没有提供电力喔！</li><li>reboot     直接重新开机</li><li>suspend    进入休眠模式<br>###按键</li><li>[Tab] 接在一串指令的第一个字的后面，则为“命令补全”；<br>接在一串指令的第二个字以后时，则为“文件补齐”！</li><li>[Ctrl]-C 终止程序运行</li><li>[Ctrl]-D 退出命令行</li><li>[shift]+[PageUP]|[Page Down] 翻页<br>###权限管理<br><img src="http://upload-images.jianshu.io/upload_images/4310548-a22dfde4e8761582.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="文件权限说明"><br><img src="http://upload-images.jianshu.io/upload_images/4310548-deb62babaa46dfac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="文件说明"><br>####修改权限</li><li>chgrp ：改变文件所属群组</li><li>chown ：改变文件拥有者</li><li>chmod ：改变文件的权限, SUID, SGID, SBIT等等的特性<br>####根目录下文件夹的含义<br><img src="http://upload-images.jianshu.io/upload_images/4310548-86aa23af8fcbd654.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="目录树"></li></ul><ol><li>bin：系统有很多放置可执行文件的目录，但/bin比较特殊。因为/bin放置的是在单人维护模式下还能够被操作的指令。</li><li>boot：主要在放置开机会使用到的文件，包括Linux核心文件以及开机菜单与开机所需配置文件等等</li><li>dev：在Linux系统上，任何设备与周边设备都是以文件的型态存在于这个目录当中的。</li><li>etc：系统主要的配置文件几乎都放置在这个目录内，例如人员的帐号密码档、 各种服务的启始档等等。</li><li>lib：lib放置的则是在开机时会用到的函数库， 以及在/bin或/sbin下面的指令会调用的函数库而已。</li><li>media：media下面放置的就是可移除的设备啦！ 包括软盘、光盘、DVD等等设备都暂时挂载于此</li><li>mnt：暂时挂载某些额外的设备，一般建议你可以放置到这个目录中。 在古早时候，这个目录的用途与/media相同</li><li>opt：给第三方协力软件放置的目录。</li><li>sbin：放在/sbin下面的为开机过程中所需要的，里面包括了开机、修复、还原系统所需要的指令。</li><li>srv: srv可以视为“service”的缩写，是一些网络服务启动之后，这些服务所需要取用的数据目录。</li><li>tmp: 这是让一般使用者或者是正在执行的程序暂时放置文件的地方。 这个目录是任何人都能够存取的，所以你需要定期的清理一下。</li><li>home: 这是系统默认的使用者主文件夹（home directory）。在你新增一个一般使用者帐号时， 默认的使用者主文件夹都会规范到这里来</li><li>lib： 用来存放与 /lib 不同的格式的二进制函数库，例如支持 64 位的 /lib64 函数库等</li><li>root：系统管理员（root）的主文件夹。之所以放在这里，是因为如果进入单人维护模式而仅挂载根目录时， 该目录就能够拥有root的主文件夹，所以我们会希望root的主文件夹与根目录放置在同一个分区中。</li><li>usr： usr是Unix Software Resource的缩写， 也就是“Unix操作系统软件资源”所放置的目录</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;###概念：命令行、终端、shell、bash。&lt;br&gt;  &lt;br&gt;     &amp;ensp;&amp;ensp;&amp;ensp;1. 命令行是在dos（Disk Operation System 磁盘操作系统）下运行的命令，通俗地讲，就是你输入的那一串串字符。。。&lt;br&gt;  2. 终端是
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Git学习</title>
+    <link href="https://langya1945.xyz/post/607d6c62.html"/>
+    <id>https://langya1945.xyz/post/607d6c62.html</id>
+    <published>2018-08-21T10:02:17.000Z</published>
+    <updated>2018-08-21T02:02:48.620Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Git三种状态"><a href="#Git三种状态" class="headerlink" title="Git三种状态"></a>Git三种状态</h3><p>*. 已提交（committed）:已提交表示数据已经安全的保存在本地数据库中</p><ul><li>已修改（modified）:已修改表示修改了文件，但还没保存到数据库中。</li><li>已暂存（staged）: 已暂存表示对一个已修改文件的当前版本做了标记，使之包含在下次<br>提交的快照中。<br>由此引入 Git 项目的三个工作区域的概念：Git 仓库、工作目录以及暂存区域。<br><img src="http://upload-images.jianshu.io/upload_images/4310548-0ae64aa1e934b4aa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></li><li>Git 仓库目录是 Git 用来保存项目的元数据和对象数据库的地方。 这是 Git 中最重要的部分，从其它计算机克隆仓库时，拷贝的就是这里的数据。</li><li>工作目录是对项目的某个版本独立提取出来的内容。 这些从 Git 仓库的压缩数据库中提取出来的文件，放在磁盘上供你使用或修改。</li><li>暂存区域是一个文件，保存了下次将提交的文件列表信息，一般在 Git 仓库目录中。 有时候也被称作<code></code>索引’’，不过一般说法还是叫暂存区域。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Git三种状态&quot;&gt;&lt;a href=&quot;#Git三种状态&quot; class=&quot;headerlink&quot; title=&quot;Git三种状态&quot;&gt;&lt;/a&gt;Git三种状态&lt;/h3&gt;&lt;p&gt;*. 已提交（committed）:已提交表示数据已经安全的保存在本地数据库中&lt;/p&gt;
+&lt;ul&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>申请微软onedrive学生版1T使用空间</title>
+    <link href="https://langya1945.xyz/post/9140c1e3.html"/>
+    <id>https://langya1945.xyz/post/9140c1e3.html</id>
+    <published>2018-08-21T10:01:15.000Z</published>
+    <updated>2018-08-21T02:01:39.240Z</updated>
+    
+    <content type="html"><![CDATA[<p>可以参考这个链接<a href="http://liyuans.com/archives/microsoft-students-package.html" rel="external nofollow noopener noreferrer" target="_blank">http://liyuans.com/archives/microsoft-students-package.html</a></p><h3 id="1-首先你得有一个学校的邮箱账号"><a href="#1-首先你得有一个学校的邮箱账号" class="headerlink" title="1.首先你得有一个学校的邮箱账号"></a>1.首先你得有一个学校的邮箱账号</h3><p>一般情况下，都是在学校的官网登录个人账号，开通邮箱，格式为<strong>学号+学校域名+edu+cn</strong>.不过毕业以后，学校会不会把邮箱收回，就另当别论了，反正这段时间肯定是可以用的。</p><h3 id="2-进入官网https-products-office-com-en-us-student-tab-students。登录邮箱账号，填写信息，会收到验证码，点击提交。"><a href="#2-进入官网https-products-office-com-en-us-student-tab-students。登录邮箱账号，填写信息，会收到验证码，点击提交。" class="headerlink" title="2.进入官网https://products.office.com/en-us/student?tab=students。登录邮箱账号，填写信息，会收到验证码，点击提交。"></a>2.进入官网<a href="https://products.office.com/en-us/student?tab=students。登录邮箱账号，填写信息，会收到验证码，点击提交。" rel="external nofollow noopener noreferrer" target="_blank">https://products.office.com/en-us/student?tab=students。登录邮箱账号，填写信息，会收到验证码，点击提交。</a></h3><h3 id="3-下载onedrive，登录申请的邮箱账号，选择自动同步文件夹即可。"><a href="#3-下载onedrive，登录申请的邮箱账号，选择自动同步文件夹即可。" class="headerlink" title="3.下载onedrive，登录申请的邮箱账号，选择自动同步文件夹即可。"></a>3.下载onedrive，登录申请的邮箱账号，选择自动同步文件夹即可。</h3><h3 id="大功告成，亲测有效"><a href="#大功告成，亲测有效" class="headerlink" title="大功告成，亲测有效"></a>大功告成，亲测有效</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;可以参考这个链接&lt;a href=&quot;http://liyuans.com/archives/microsoft-students-package.html&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>杭电VPN访问学校资源</title>
+    <link href="https://langya1945.xyz/post/139a837b.html"/>
+    <id>https://langya1945.xyz/post/139a837b.html</id>
+    <published>2018-08-21T09:58:34.000Z</published>
+    <updated>2018-08-21T02:00:29.495Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="1-登录杭电官网选择VPN登录。"><a href="#1-登录杭电官网选择VPN登录。" class="headerlink" title="1. 登录杭电官网选择VPN登录。"></a>1. 登录杭电官网选择VPN登录。</h4><h4 id="2-浏览器会自动下载easyconnect组件，安装完成后打开软件，输入服务器地址-https-vpn-hdu-edu-cn-连接服务器，然后通过数字杭电账号登录。"><a href="#2-浏览器会自动下载easyconnect组件，安装完成后打开软件，输入服务器地址-https-vpn-hdu-edu-cn-连接服务器，然后通过数字杭电账号登录。" class="headerlink" title="2.浏览器会自动下载easyconnect组件，安装完成后打开软件，输入服务器地址 https://vpn.hdu.edu.cn,连接服务器，然后通过数字杭电账号登录。"></a>2.浏览器会自动下载easyconnect组件，安装完成后打开软件，输入服务器地址 <a href="https://vpn.hdu.edu.cn,连接服务器，然后通过数字杭电账号登录。" rel="external nofollow noopener noreferrer" target="_blank">https://vpn.hdu.edu.cn,连接服务器，然后通过数字杭电账号登录。</a></h4><h4 id="3-经测试，easyconnect会打开默认浏览器，chrome和firefox均不能打开，一直处于初始化状态，这个时候需要手动把默认浏览器设置成为IE即可。"><a href="#3-经测试，easyconnect会打开默认浏览器，chrome和firefox均不能打开，一直处于初始化状态，这个时候需要手动把默认浏览器设置成为IE即可。" class="headerlink" title="3.经测试，easyconnect会打开默认浏览器，chrome和firefox均不能打开，一直处于初始化状态，这个时候需要手动把默认浏览器设置成为IE即可。"></a>3.经测试，easyconnect会打开默认浏览器，chrome和firefox均不能打开，一直处于初始化状态，这个时候需要手动把默认浏览器设置成为IE即可。</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;1-登录杭电官网选择VPN登录。&quot;&gt;&lt;a href=&quot;#1-登录杭电官网选择VPN登录。&quot; class=&quot;headerlink&quot; title=&quot;1. 登录杭电官网选择VPN登录。&quot;&gt;&lt;/a&gt;1. 登录杭电官网选择VPN登录。&lt;/h4&gt;&lt;h4 id=&quot;2-浏览器会自
+      
+    
+    </summary>
+    
+      <category term="技术文档" scheme="https://langya1945.xyz/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
+    
+    
+      <category term="VPN,学校" scheme="https://langya1945.xyz/tags/VPN-%E5%AD%A6%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
     <title>test2</title>
     <link href="https://langya1945.xyz/post/13bb8d58.html"/>
     <id>https://langya1945.xyz/post/13bb8d58.html</id>
     <published>2018-08-15T08:37:00.000Z</published>
-    <updated>2018-08-15T00:39:32.726Z</updated>
+    <updated>2018-08-21T01:41:26.359Z</updated>
     
     <content type="html"><![CDATA[<h2 id="你好-，这里是第二次测试"><a href="#你好-，这里是第二次测试" class="headerlink" title="你好 ，这里是第二次测试"></a>你好 ，这里是第二次测试</h2>]]></content>
     
@@ -55,8 +149,6 @@
     
     </summary>
     
-    
-      <category term="test" scheme="https://langya1945.xyz/tags/test/"/>
     
   </entry>
   
